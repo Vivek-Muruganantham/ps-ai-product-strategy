@@ -28,7 +28,7 @@
 
 ---
 
-### Platform Exposure — 4/5
+### Platform Exposure — 3/5
 *Encroachment risk × pivot speed. If Apple/Google/OpenAI ships your hero feature native — then what?*
 
 **Score Rationale:** Platform owners could develop equivalent capabilities independently if we do not deliver differentiated features at pace.
