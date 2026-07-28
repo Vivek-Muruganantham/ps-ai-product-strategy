@@ -7,52 +7,52 @@
 
 | Loop | What It Measures | Score 1 | Score 5 | Score |
 |------|------------------|---------|---------|-------|
-| **Correction** | Do users fix AI outputs? Is that signal captured and reused? | No capture | Automated retraining | __/5 |
-| **Preference** | Does the product learn individual / team preferences over time? | Stateless | Deep personalization | __/5 |
-| **Domain Context** | Does usage in one area improve quality in adjacent areas? | Siloed | Cross-domain transfer | __/5 |
-| **Network** | Does each new user / team make the product better for everyone? | Isolated | Strong network effects | __/5 |
+| **Correction** | Do users fix AI outputs? Is that signal captured and reused? | No capture | Automated retraining | 1/5 |
+| **Preference** | Does the product learn individual / team preferences over time? | Stateless | Deep personalization | 3/5 |
+| **Domain Context** | Does usage in one area improve quality in adjacent areas? | Siloed | Cross-domain transfer | 3/5 |
+| **Network** | Does each new user / team make the product better for everyone? | Isolated | Strong network effects | 1/5 |
 
-### Correction Loop - __/5
-**What you capture today:**
+### Correction Loop - 1/5
+**What you capture today:** We are not capturing it
 **How it compounds:**
 
-### Preference Loop - __/5
-**What you capture today:**
+### Preference Loop - 3/5
+**What you capture today:** We are saving language preference and previous chat history
+**How it compounds:** It could answer in english even if the document is in some other language and show full history.
+
+### Domain Context Loop - 3/5
+**What you capture today:** List of documents trained on
+**How it compounds:** Responses are based out of document it is trained on
+
+### Network Loop - 1/5
+**What you capture today:** We are not capturing it today
 **How it compounds:**
 
-### Domain Context Loop - __/5
-**What you capture today:**
-**How it compounds:**
-
-### Network Loop - __/5
-**What you capture today:**
-**How it compounds:**
-
-**Total Flywheel Score: __/20**
-**Weakest Loop:**
-**Fix for weakest loop:**
+**Total Flywheel Score: 8/20**
+**Weakest Loop:** Correction
+**Fix for weakest loop:** Capture the user interaction and feedback
 
 ---
 
 ## Encroachment Threat Assessment
 
 ### 1. Platform Encroachment
-**Attacker:**
+**Attacker:** None
 **Vector:**
 **Time-to-threat:**
 **% of value at risk:**
 
 ### 2. Vertical Competitor
-**Attacker:**
+**Attacker:** Other teams in the company
 **Vector:**
-**Time-to-threat:**
-**% of value at risk:**
+**Time-to-threat:** 1 year
+**% of value at risk:** 70%
 
 ### 3. Adjacent Expansion
-**Attacker:**
+**Attacker:** Individual site
 **Vector:**
-**Time-to-threat:**
-**% of value at risk:**
+**Time-to-threat:**  1 year
+**% of value at risk:** 100%
 
 ---
 
